@@ -12,7 +12,8 @@ def menu
 1) Mostrar alumnos y sus promedios
 2) Mostrar alumnos con sus inasistencias
 3) Mostrar alumnos aprobados
-4) Salir"
+4) Salir
+-------------------------------\n"
 end
 
 menu
@@ -61,7 +62,7 @@ while opcion != 4
       aprobar(nombre, promedio, 5)
     end
   else
-    puts 'Ingrese una opcion válida'
+    puts "\nIngrese una opcion válida\n"
   end
   menu
   puts 'Ingrese una opcion'
